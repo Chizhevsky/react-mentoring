@@ -6,15 +6,16 @@ import LogIn from "../../pages/LogIn/LogIn";
 import Settings from "../../pages/Settings/Settings";
 
 function Main() {
+  const path = window.location.pathname;
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path={`${path}`}>
         <Home />
       </Route>
-      <Route path="/settings">
+      <Route path={`${path}settings`}>
         <Settings />
       </Route>
-      <Route path="/login">
+      <Route path={`${path}login`}>
         <LogIn />
       </Route>
     </Switch>

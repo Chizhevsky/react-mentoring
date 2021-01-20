@@ -5,21 +5,22 @@ import SettingsIcon from "./settings.svg";
 import { Link } from "react-router-dom";
 
 function Header({isLoggedIn}) {
+  const path = window.location.pathname;
   return (
     <header className="header">
       <div className="header__wrapper">
-        <Link className="header__logo" to="/">
+        <Link className="header__logo" to={`${path}`}>
           <img className="header__logo-img" src={LogoIcon} alt="netflix" />
         </Link>
         <nav className="header__nav">
-          <Link className="header__link" to="/settings">
+          <Link className="header__link" to={`${path}settings`}>
             <img
               className="header__settings-img"
               src={SettingsIcon}
               alt="settings"
             />
           </Link>
-          {isLoggedIn !== 'undefiend' && <Link className="header__link" to={isLoggedIn ? "logout" : "login"}>
+          {isLoggedIn !== 'undefiend' && <Link className="header__link" to={isLoggedIn ? `${path}logout` : `${path}login`}>
             {isLoggedIn ? "Log out" : "Log In"}
           </Link>}
         </nav>
