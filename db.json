@@ -5,5 +5,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra justo risus, eu mattis turpis congue id. Curabitur luctus hendrerit lectus, in ornare dolor commodo a. In sed eros non v",
         "source": "TcMBFSGVi1c"
     },
-    "isLoggedIn": false
+    "auth": {
+        "isLoggedIn": false
+    }
 }

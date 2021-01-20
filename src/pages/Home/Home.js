@@ -12,7 +12,7 @@ class Home extends React.Component {
     }
 
     async componentDidMount() {
-        const { data } = await axios.get('https://my-json-server.typicode.com/Chizhevsky/my-fake-server-for-films/top-film')
+        const { data } = await axios.get('https://my-json-server.typicode.com/Chizhevsky/react-mentoring/top-film')
         this.setState({topFilm: data})
     }
 
