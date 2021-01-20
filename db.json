@@ -7,5 +7,42 @@
     },
     "auth": {
         "isLoggedIn": false
-    }
+    },
+    "categories": [
+        {
+            "name": "Last Films",
+            "items": [
+                {
+                    "name": "1917",
+                    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71ZcU-iD9ZL._AC_SL1385_.jpg"
+                },
+                {
+                    "name": "The Irishman",
+                    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+                },
+                {
+                    "name": "Murder Mystery",
+                    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "photoSource": "https: //skyteach.ru/wp-content/uploads/2020/07/murder-mystery.jpg"
+                },
+                {
+                    "name": "Triple Frontier",
+                    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "photoSource": "https: //images.newindianexpress.com/uploads/user/imagelibrary/2019/3/15/w900X450/Triple_Frontier.jpg"
+                }
+            ]
+        },
+        {
+            "name": "The Best",
+            "items": [
+                {
+                    "name": "The Irishman",
+                    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+                }
+            ]
+        }
+    ]
 }

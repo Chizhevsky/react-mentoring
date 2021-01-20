@@ -6,11 +6,8 @@ import "./App.css";
 import Main from "./components/Main/Main.js";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      auth: null,
-    };
+  state = {
+    auth: null,
   }
 
   async componentDidMount() {
@@ -22,7 +19,7 @@ class App extends React.Component {
     return (
       <div>
         <Header isLoggedIn={this.state.auth?.isLoggedIn} />
-        <Main></Main>
+        <Main />
       </div>
     );
   }

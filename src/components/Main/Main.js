@@ -7,19 +7,17 @@ import Settings from "../../pages/Settings/Settings";
 
 function Main() {
   return (
-    <main className="main-page">
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/settings">
-          <Settings />
-        </Route>
-        <Route path="/login">
-          <LogIn />
-        </Route>
-      </Switch>
-    </main>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/settings">
+        <Settings />
+      </Route>
+      <Route path="/login">
+        <LogIn />
+      </Route>
+    </Switch>
   );
 }
 
