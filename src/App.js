@@ -1,16 +1,31 @@
-import Header from './components/Header/Header.js'
+import React from "react";
+import axios from 'axios'
 
-import './App.css'
-import Main from './components/Main/Main.js'
+import Header from "./components/Header/Header.js";
+import "./App.css";
+import Main from "./components/Main/Main.js";
 
-function App() {
-  const isLoggedIn = false
-  return (
-    <div>
-      <Header isLoggedIn={isLoggedIn} />
-      <Main></Main>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      auth: null,
+    };
+  }
+
+  async componentDidMount() {
+    const { data } = await axios.get('https://my-json-server.typicode.com/Chizhevsky/my-fake-server-for-films/auth')
+    this.setState({ auth: data });
+  }
+
+  render() {
+    return (
+      <div>
+        <Header isLoggedIn={this.state.auth?.isLoggedIn} />
+        <Main></Main>
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
