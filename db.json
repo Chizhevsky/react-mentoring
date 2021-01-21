@@ -3,7 +3,8 @@
         "id": "123",
         "name": "Avengers",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra justo risus, eu mattis turpis congue id. Curabitur luctus hendrerit lectus, in ornare dolor commodo a. In sed eros non v",
-        "source": "TcMBFSGVi1c"
+        "source": "TcMBFSGVi1c",
+        "photoSource": "https://t3me.com/en/wp-content/uploads/sites/2/2020/09/a6.jpg"
     },
     "auth": {
         "isLoggedIn": false
@@ -13,24 +14,32 @@
             "name": "Last Films",
             "items": [
                 {
+                    "id": "234",
                     "name": "1917",
                     "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+                    "source": "PxOBp68HDhQ",
                     "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71ZcU-iD9ZL._AC_SL1385_.jpg"
                 },
                 {
+                    "id": "345",
                     "name": "The Irishman",
                     "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-                    "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+                    "source": "WHXxVmeGQUc",
+                    "photoSource": "https://images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
                 },
                 {
+                    "id": "456",
                     "name": "Murder Mystery",
                     "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-                    "photoSource": "https: //skyteach.ru/wp-content/uploads/2020/07/murder-mystery.jpg"
+                    "source": "5YEVQDr2f3Q",
+                    "photoSource": "https://skyteach.ru/wp-content/uploads/2020/07/murder-mystery.jpg"
                 },
                 {
+                    "id": "567",
                     "name": "Triple Frontier",
                     "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-                    "photoSource": "https: //images.newindianexpress.com/uploads/user/imagelibrary/2019/3/15/w900X450/Triple_Frontier.jpg"
+                    "source": "Fo3yRLLrXQA",
+                    "photoSource": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/15/w900X450/Triple_Frontier.jpg"
                 }
             ]
         },
@@ -38,11 +47,57 @@
             "name": "The Best",
             "items": [
                 {
+                    "id": "345",
                     "name": "The Irishman",
                     "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-                    "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+                    "source": "WHXxVmeGQUc",
+                    "photoSource": "https://images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+                },
+                {
+                    "id": "123",
+                    "name": "Avengers",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra justo risus, eu mattis turpis congue id. Curabitur luctus hendrerit lectus, in ornare dolor commodo a. In sed eros non v",
+                    "source": "TcMBFSGVi1c",
+                    "photoSource": "https://t3me.com/en/wp-content/uploads/sites/2/2020/09/a6.jpg"
                 }
             ]
+        }
+    ],
+    "allPictures": [
+        {
+            "id": "123",
+            "name": "Avengers",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra justo risus, eu mattis turpis congue id. Curabitur luctus hendrerit lectus, in ornare dolor commodo a. In sed eros non v",
+            "source": "TcMBFSGVi1c",
+            "photoSource": "https://t3me.com/en/wp-content/uploads/sites/2/2020/09/a6.jpg"
+        },
+        {
+            "id": "234",
+            "name": "1917",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+            "source": "PxOBp68HDhQ",
+            "photoSource": "https: //images-na.ssl-images-amazon.com/images/I/71ZcU-iD9ZL._AC_SL1385_.jpg"
+        },
+        {
+            "id": "345",
+            "name": "The Irishman",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+            "source": "WHXxVmeGQUc",
+            "photoSource": "https://images-na.ssl-images-amazon.com/images/I/71Y5pMAw8rL._AC_SL1200_.jpg"
+        },
+        {
+            "id": "456",
+            "name": "Murder Mystery",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+            "source": "5YEVQDr2f3Q",
+            "photoSource": "https://skyteach.ru/wp-content/uploads/2020/07/murder-mystery.jpg"
+        },
+        {
+            "id": "567",
+            "name": "Triple Frontier",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+            "source": "Fo3yRLLrXQA",
+            "photoSource": "https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/15/w900X450/Triple_Frontier.jpg"
         }
     ]
 }

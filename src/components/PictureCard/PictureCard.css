@@ -10,13 +10,10 @@
     align-items: flex-start;
     padding: 10px;
     margin: 20px;
-    cursor: pointer;
+    text-decoration: none;
 }
 .picture-card__name,
 .picture-card__description {
     background-color: black;
     color: white;
 }
-/* .picture-card__description {
-    word-wrap: break-word;
-} */
