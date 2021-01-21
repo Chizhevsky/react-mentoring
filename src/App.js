@@ -1,9 +1,10 @@
 import React from "react";
 import axios from 'axios'
 
-import Header from "./components/Header/Header.js";
-import "./App.css";
-import Main from "./components/Main/Main.js";
+import Header from "./components/Header/Header.js"
+import "./App.css"
+import Main from "./components/Main/Main.js"
+import { API } from "./constants/constants"
 
 class App extends React.Component {
   state = {
@@ -11,8 +12,9 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    const { data } = await axios.get('https://my-json-server.typicode.com/Chizhevsky/my-fake-server-for-films/auth')
-    this.setState({ auth: data });
+    console.log(this.props)
+    const { data } = await axios.get(`${API.host}/auth`)
+    this.setState({ auth: data })
   }
 
   render() {
