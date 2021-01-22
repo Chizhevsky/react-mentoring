@@ -12,7 +12,10 @@ class App extends React.Component {
     super(props)
     const theme = localStorage.getItem('theme')
     this.state = {
-      auth: null,
+      auth: {
+        isLoggedIn: false,
+        user: null
+      },
       theme
     }
   }
@@ -22,7 +25,20 @@ class App extends React.Component {
     this.setState({theme})
   }
 
+  async handleAutorization({ email, password }) {
+    // const { data: allUsers } = await axios.get(`${API.host}/allUsers`)
+    // const currentUser = await allUsers.find((user) => user.email === email && user.password === password)
+    // if (!currentUser) {
+    //   return false;
+    //   return;
+    // } else {
+      
+    //   this.setState({auth: {user: currentUser, isLoggedIn: true}});
+    // }
+  }
+
   async componentDidMount() {
+    console.log(this.props);
     const { data } = await axios.get(`${API.host}/auth`)
     this.setState({ auth: data })
   }
