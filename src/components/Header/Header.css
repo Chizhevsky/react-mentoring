@@ -1,6 +1,6 @@
 .header {
-    background-color: grey;
     padding: 15px;
+    border: 1px solid black
 }
 
 .header__wrapper {
