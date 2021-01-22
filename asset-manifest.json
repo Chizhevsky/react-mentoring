@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-mentoring/static/css/main.3c7aa018.chunk.css",
-    "main.js": "/react-mentoring/static/js/main.6a5594f9.chunk.js",
-    "main.js.map": "/react-mentoring/static/js/main.6a5594f9.chunk.js.map",
+    "main.css": "/react-mentoring/static/css/main.acea3a4f.chunk.css",
+    "main.js": "/react-mentoring/static/js/main.0478b84d.chunk.js",
+    "main.js.map": "/react-mentoring/static/js/main.0478b84d.chunk.js.map",
     "runtime-main.js": "/react-mentoring/static/js/runtime-main.2fe6fd2b.js",
     "runtime-main.js.map": "/react-mentoring/static/js/runtime-main.2fe6fd2b.js.map",
-    "static/js/2.babc27ec.chunk.js": "/react-mentoring/static/js/2.babc27ec.chunk.js",
-    "static/js/2.babc27ec.chunk.js.map": "/react-mentoring/static/js/2.babc27ec.chunk.js.map",
+    "static/js/2.025f4587.chunk.js": "/react-mentoring/static/js/2.025f4587.chunk.js",
+    "static/js/2.025f4587.chunk.js.map": "/react-mentoring/static/js/2.025f4587.chunk.js.map",
     "index.html": "/react-mentoring/index.html",
-    "static/css/main.3c7aa018.chunk.css.map": "/react-mentoring/static/css/main.3c7aa018.chunk.css.map",
-    "static/js/2.babc27ec.chunk.js.LICENSE.txt": "/react-mentoring/static/js/2.babc27ec.chunk.js.LICENSE.txt",
+    "static/css/main.acea3a4f.chunk.css.map": "/react-mentoring/static/css/main.acea3a4f.chunk.css.map",
+    "static/js/2.025f4587.chunk.js.LICENSE.txt": "/react-mentoring/static/js/2.025f4587.chunk.js.LICENSE.txt",
     "static/media/logo.720eeeb0.svg": "/react-mentoring/static/media/logo.720eeeb0.svg",
     "static/media/settings.f3f15426.svg": "/react-mentoring/static/media/settings.f3f15426.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2fe6fd2b.js",
-    "static/js/2.babc27ec.chunk.js",
-    "static/css/main.3c7aa018.chunk.css",
-    "static/js/main.6a5594f9.chunk.js"
+    "static/js/2.025f4587.chunk.js",
+    "static/css/main.acea3a4f.chunk.css",
+    "static/js/main.0478b84d.chunk.js"
   ]
 }
