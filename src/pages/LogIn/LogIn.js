@@ -14,15 +14,8 @@ class LogIn extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    // const { email, password } = this.state
-    // const { data: allUsers } = await axios.get(`${API.host}/allUsers`)
-    // const currentUser = await allUsers.find((user) => user.email === email && user.password === password)
-    // if (!currentUser) {
-      // return false;
-    // } else {
-      // redirection to Home
-      // this.setState({auth: {user: currentUser, isLoggedIn: true}});
-    // }
+    const { email, password } = this.state
+    this.props.handleAutorization(email, password);
   }
 
   render() {
@@ -32,7 +25,7 @@ class LogIn extends React.Component {
         <form className="login__form" onSubmit={this.handleSubmit}>
           <label>
             <h4>Email:</h4>
-            <input name="text" type="email" value={this.state.email} onChange={this.handleInputChange} />
+            <input name="email" type="email" value={this.state.email} onChange={this.handleInputChange} />
           </label>
           <label>
             <h4>Password</h4>

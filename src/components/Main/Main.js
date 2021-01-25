@@ -6,6 +6,7 @@ import LogIn from "../../pages/LogIn/LogIn";
 import Settings from "../../pages/Settings/Settings";
 import ViewMode from "../../pages/ViewMode/ViewMode";
 import { ThemeContext } from "../../contexts/ThemeContext";
+import { AuthContext } from "../../contexts/AuthContext";
 
 function Main() {
   return (
@@ -13,15 +14,24 @@ function Main() {
       <Route path="/settings" render={() => (
         <ThemeContext.Consumer>
           {
-            ({theme, themes, changeTheme}) => (
+            ({theme, changeTheme}) => (
               <Settings theme={theme} changeTheme={changeTheme} />
             )
           }
         </ThemeContext.Consumer>
       )} />
-      <Route path="/login" component={LogIn} />
+      <Route path="/login" render={() => (
+        <AuthContext.Consumer>
+          {
+            ({handleAutorization}) => (
+              <LogIn handleAutorization={handleAutorization} />
+            )
+          }
+        </AuthContext.Consumer>
+      )} />
+
       <Route path="/view-mode/:id" component={ViewMode} />
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
     </Switch>
   );
 }

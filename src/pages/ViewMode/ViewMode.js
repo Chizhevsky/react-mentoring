@@ -19,8 +19,9 @@ export default class ViewMode extends Component {
   }
 
   render() {
+    const { currentPicture } = this.state
     return (
-      this.state.currentPicture && (
+      currentPicture && (
         <main className="view-mode">
           <button
             className="view-mode__back-button"
@@ -30,11 +31,11 @@ export default class ViewMode extends Component {
             <VideoPlayer
               width={"1000px"}
               height={"500px"}
-              source={this.state.currentPicture.source}
+              source={currentPicture.source}
             />
           </div>
-          <h1>{this.state.currentPicture.name}</h1>
-          <p>{this.state.currentPicture.description}</p>
+          <h1>{currentPicture.name}</h1>
+          <p>{currentPicture.description}</p>
         </main>
       )
     );
